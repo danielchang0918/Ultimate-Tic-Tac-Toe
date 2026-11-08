@@ -195,7 +195,7 @@ const Game = (props) => {
           <div style={{ marginTop: "20px", fontSize: "20px" }}>{status}</div>
           {props.clock && (
             <div>
-              [TIME] {props.playerXName}:{" "}
+              [남은 시간] {props.playerXName}:{" "}
               <CountDown
                 key={1}
                 player="X"

@@ -6,7 +6,7 @@ import "./index.css";
 const App = () => {
   const [state, setState] = useState({
     boardSize: 3,
-    clock: false,
+    clock: true,
     time: 10,
     matchID: 0,
   });

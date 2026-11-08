@@ -89,3 +89,9 @@ const handleClick = (inner_idx, outer_idx) => {
 
 위 세 경우에는 함수를 즉시 종료한다. 
 유효한 칸을 클릭한 경우에는, 현재의 차례를 검사해 x의 차례라면 x를, o의 차례라면 o를 표시하고 해당 위치를 lastMoveLocation으로 저장한다. 
+
+## Customizing
+
+- **Text:** Game.jsx, SettingsForm.jsx | 화면에 디스플레이된 각종 버튼 및 메시지, 그리고 게임을 승리하거나 무승부되었을 때 출력되는 메시지를 모두 한글화 진행 (New Game -> 새로운 게임, Board Size -> 보드 크기 등)
+- **Style:** Square.jsx, index.css | 배경색 변경, 칸의 색상과 O, X 색, 작은 보드 승리시 색상 모두 변경
+- **UI/Data:** 

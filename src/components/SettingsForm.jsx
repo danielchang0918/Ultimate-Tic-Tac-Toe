@@ -52,7 +52,7 @@ const SettingsForm = (props) => {
       </label> */}
       {state.clock && (
         <label className="settings-label">
-          Time (min){" "}
+          시간 제한 (분){" "}
           <input
             name="time"
             type="number"
