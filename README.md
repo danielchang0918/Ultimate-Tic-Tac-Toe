@@ -94,4 +94,21 @@ const handleClick = (inner_idx, outer_idx) => {
 
 - **Text:** Game.jsx, SettingsForm.jsx | 화면에 디스플레이된 각종 버튼 및 메시지, 그리고 게임을 승리하거나 무승부되었을 때 출력되는 메시지를 모두 한글화 진행 (New Game -> 새로운 게임, Board Size -> 보드 크기 등)
 - **Style:** Square.jsx, index.css | 배경색 변경, 칸의 색상과 O, X 색, 작은 보드 승리시 색상 모두 변경
-- **UI/Data:** 
+- **UI/Data:** App.jsx, Game.jsx, SettingsForm.jsx | 코드 상으로만 구현되어있던 시간 제한 기능을 활성화해, 게임 설정에서 시간제한을 설정하고 실제 게임 내에서 시간제한이 표시되도록 변경
+
+## Deployment
+https://ultimate-tic-tac-toe-ebon.vercel.app/
+
+## Weekly Review
+
+- **새롭게 배운 내용 3가지:**
+1. React의 컴포넌트: 최상위 컴포넌트가 존재하고 각 컴포넌트를 불러와서 기능을 이용하는 방식이 마치 Java와 같은 객체지향언어를 보는듯 하여 흥미로웠다. 
+2. React의 상태 관리: React에서 state과 setState을 이용하여 상태를 불러오고 또 변경하는 방법을 학습하였다. 
+3. React로 HTMl 작성하기: React를 이용하여 HTML 파일의 구조를 조작하는 법을 학습하였다. 
+
+- **어려웠던 점과 해결 방법:**
+
+React가 기존에 배웠던 HTML이나 JavaScript와는 다르기에 마치 새로운 언어를 공부하는 마음으로 한줄한줄 코드를 읽어나갔다. 처음 보는 문법들이 많아 처음에는 코드를 읽고 분석하는데에 어려움이 있었다. 그러나, 상세히 읽어보니 JavaScript나 HTML에서 분명 배웠던 내용을 조금씩 변경해서 사용하고 있는듯하여 금방 적응할 수 있었다. 
+
+- **AI 활용 내용 및 느낀점** 
+React의 기본적인 문법이 어떻게 되는지, 상태가 무엇이고 React에서 상태를 어떻게 관리하는지 등 React 라이브러리를 학습하기 위해 AI를 활용하였다. 
