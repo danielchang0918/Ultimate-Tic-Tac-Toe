@@ -25,9 +25,9 @@ const SettingsForm = (props) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input className="NewGame" type="submit" value="New game" />
+      <input className="NewGame" type="submit" value="새로운 게임" />
       <label style={{ padding: "20px" }} className="settings-label boardLen">
-        Board size{" "}
+        보드 크기{" "}
         <input
           className="input"
           name="boardSize"

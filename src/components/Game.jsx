@@ -154,7 +154,7 @@ const Game = (props) => {
 
   let status;
   if (state.history[state.stepNumber].winner) {
-    status = state.history[state.stepNumber].winner + " wins!";
+    status = state.history[state.stepNumber].winner + " 승리!";
     const lastOuterMove = {
       row: state.history[state.stepNumber].lastMoveLocation.outerRow,
       col: state.history[state.stepNumber].lastMoveLocation.outerCol,
@@ -165,14 +165,14 @@ const Game = (props) => {
         lastOuterMove
       ) === null
     ) {
-      status = "Time over! " + status;
+      status = "시간 초과! " + status;
     }
   } else {
     if (state.history[state.stepNumber].localWinners.indexOf(null) === -1) {
-      status = "Draw! Everybody wins!! :D";
+      status = "무승부입니다!";
     } else {
       status =
-        "Next player: " +
+        "다음 플레이어: " +
         (state.history[state.stepNumber].xIsNext
           ? props.playerXName + " (X)"
           : props.playerOName + " (O)");
@@ -217,10 +217,10 @@ const Game = (props) => {
       )}
       <div id="imp">
         <button className="UndoBtn" onClick={undo}>
-          Undo
+          되돌리기
         </button>
         <button className="UndoBtn" onClick={rules}>
-          Rules
+          규칙 보기
         </button>
       </div>
     </div>
