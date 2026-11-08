@@ -15,7 +15,7 @@ body {
   background-image: repeating-radial-gradient(
       circle at 0 0,
       transparent 0,
-      #000000 84px
+      #b1c3eb 84px
     ),
     repeating-linear-gradient(#31005e, #31005e);
   background-color: #000000;

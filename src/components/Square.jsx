@@ -20,13 +20,13 @@ const Square = (props) => {
   };
 
   if (props.value) {
-    style.color = props.value === "X" ? "#fc7341" : "#2db2e2";
+    style.color = props.value === "X" ? "#88f549" : "#49e5eb";
   }
 
   if (props.winner) {
-    style.background = props.winner === "X" ? "#ffccb5" : "#dbf5ff";
+    style.background = props.winner === "X" ? "#12c212" : "#096e6e";
   } else if (props.clickable) {
-    style.background = "#A42F13 ";
+    style.background = "#202d9e ";
   }
 
   return (
